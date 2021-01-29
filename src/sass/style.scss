@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/stylesheet';
+@import 'libs/fontawesome';
+@import 'libs/swiper';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'SF UI Text', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/catalog';
+@import 'blocks/hits';
+@import 'blocks/media';

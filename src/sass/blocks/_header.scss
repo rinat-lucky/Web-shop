@@ -1,0 +1,27 @@
+.header {
+    height: 178px;
+    padding: 57px 0;
+    &__wrapper {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: 63px;
+        grid-auto-rows: 63px;
+        column-gap: 30px;
+    }
+    &__item {
+        display: flex;
+        font-size: 14px;
+        line-height: 20px;
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 5px;
+        }
+    }
+    &__descr {
+        margin-left: 20.4px;
+    }
+}
